@@ -52,7 +52,7 @@ An intuitive **Loan Application System** built with **React, Firebase, HTML, CSS
 ---
 
 ## 📂 Project Structure
-
+###
 src/
 ├── auth/ # Authentication components (Login, Signup)
 ├── components/
@@ -69,7 +69,7 @@ src/
 │ └── ManagerDashboard.jsx
 ├── admin/
 │ └── AdminDashboard.jsx
-
+###
 
 ---
 
