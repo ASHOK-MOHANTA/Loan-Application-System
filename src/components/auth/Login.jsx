@@ -4,6 +4,7 @@ import { auth } from '../../services/firebaseConfig';
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from 'react-router-dom';
 import { getUserRole } from '../../utils/getUserRole'; // make sure this path is correct
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -72,7 +73,8 @@ const Login = () => {
 
           <button className="submit">Submit</button>
           <p className="signin">
-            Don't have an account? <a href="/signup">Sign Up</a>
+            Don't have an account?{" "}
+            <Link to="/signup">Sign Up</Link> {/* ✅ replaced <a> with <Link> */}
           </p>
         </form>
       </div>
