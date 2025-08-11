@@ -51,9 +51,9 @@ An intuitive **Loan Application System** built with **React, Firebase, HTML, CSS
 
 ---
 ## Portal Login Credential:-
- -**User Login**: email: login@gmail.com , Password: login@123
- -**Manager Login**: email: manager1@gmail.com , Password : manager@123
---**Admin Login**: Email : admin1@gmail.com , Password : admin@123
+ - **User Login**: email: login@gmail.com , Password: login@123
+ - **Manager Login**: email: manager1@gmail.com , Password : manager@123
+ - **Admin Login**: Email : admin1@gmail.com , Password : admin@123
 
 ---
 
