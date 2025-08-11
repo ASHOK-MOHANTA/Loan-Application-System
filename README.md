@@ -52,24 +52,25 @@ An intuitive **Loan Application System** built with **React, Firebase, HTML, CSS
 ---
 
 ## 📂 Project Structure
-###
+```
 src/
-├── auth/ # Authentication components (Login, Signup)
+├── auth/                   # Authentication components (Login, Signup)
 ├── components/
-│ ├── loanApplication/ # Loan application step forms
-│ └── common/ # Reusable UI components
+│   ├── loanApplication/    # Loan application step forms
+│   └── common/             # Reusable UI components
 ├── pages/
-│ ├── LoanCalculator.jsx
-│ ├── Payments.jsx
+│   ├── LoanCalculator.jsx
+│   ├── Payments.jsx
 ├── service/
-│ └── firebaseConfig.js # Firebase configuration
+│   └── firebaseConfig.js   # Firebase configuration
 ├── user/
-│ └── UserDashboard.jsx
+│   └── UserDashboard.jsx
 ├── manager/
-│ └── ManagerDashboard.jsx
+│   └── ManagerDashboard.jsx
 ├── admin/
-│ └── AdminDashboard.jsx
-###
+│   └── AdminDashboard.jsx
+```
+
 
 ---
 
