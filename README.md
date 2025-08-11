@@ -53,3 +53,49 @@ An intuitive **Loan Application System** built with **React, Firebase, HTML, CSS
 
 ## 📂 Project Structure
 
+src/
+├── auth/ # Authentication components (Login, Signup)
+├── components/
+│ ├── loanApplication/ # Loan application step forms
+│ └── common/ # Reusable UI components
+├── pages/
+│ ├── LoanCalculator.jsx
+│ ├── Payments.jsx
+├── service/
+│ └── firebaseConfig.js # Firebase configuration
+├── user/
+│ └── UserDashboard.jsx
+├── manager/
+│ └── ManagerDashboard.jsx
+├── admin/
+│ └── AdminDashboard.jsx
+
+
+---
+
+## ⚙️ How It Works
+
+1. **Authentication & Role Assignment**  
+   - Users, Managers, and Admins have different dashboard views and access permissions.
+   - Managers must be approved by Admin before gaining full access.
+
+2. **Multi-Step Loan Application Form**  
+   - Saves form data step-by-step and validates inputs before proceeding.
+   - Final submission stores data in Firebase Firestore.
+
+3. **Manager Application Review**  
+   - Pending loan applications are displayed to managers for approval/rejection.
+
+4. **Admin Approval System**  
+   - Admin verifies and approves manager accounts.
+   - Admin has access to all submitted loan applications.
+
+---
+
+## 🖥️ Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/loan-application-system.git
+
+
